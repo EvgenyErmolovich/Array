@@ -187,6 +187,7 @@ int* Array:: AllocMemory(int n)
 }
 int Array:: BinSearch(int x)
 {
+    QuickSort(ComparerIncrease);
     int low, high, mid;
     low = 0;
     high = size;
@@ -222,4 +223,12 @@ int AbsComparerIncrease(int a, int b)
 int AbsComparerDecrease(int a, int b)
 {
     return abs(b) - abs(a);
+}
+int ComparerIncrease(int a, int b)
+{
+    return a-b;
+}
+int ComparerDecrease(int a, int b)
+{
+    return b-a;
 }

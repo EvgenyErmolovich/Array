@@ -45,4 +45,6 @@ private:
 };
 int AbsComparerIncrease(int , int );
 int AbsComparerDecrease(int , int );
+int ComparerIncrease(int , int );
+int ComparerDecrease(int , int );
 #endif /* Array_hpp */

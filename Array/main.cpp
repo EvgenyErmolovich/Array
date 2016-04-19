@@ -16,8 +16,6 @@ int main()
     Array arr(10);
     arr.RandomArray();
     arr.DisplayArray();
-    arr.ShakerSort(AbsComparerDecrease);
-    arr.DisplayArray();
     cout << arr.FindMax()<< endl;
     cout << arr.FindMin()<< endl;
     cout << arr.BinSearch(49);
